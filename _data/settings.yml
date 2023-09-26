@@ -28,19 +28,18 @@ page:
   nodata: Tidak ada game data
 
 
-
 feature:
   - title: Pragmatic Play
-    url: pragmatic-play
+    url: pragmaticplay
     images:
       - img: https://l154gamer.github.io/assets/feature/peaky-blinders.webp
-        url: pragmatic-play
+        url: pragmaticplay
       - img: https://l154gamer.github.io/assets/feature/cowboys-gold.webp
-        url: pragmatic-play
+        url: pragmaticplay
       - img: https://l154gamer.github.io/assets/img/pragmatic-play/wild-west-duels.webp
-        url: pragmatic-play
+        url: pragmaticplay
       - img: https://l154gamer.github.io/assets/img/pragmatic-play/wild-west-gold.webp
-        url: pragmatic-play
+        url: pragmaticplay
   - title: PG Soft
     url: pgsoft
     images:
