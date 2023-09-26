@@ -3,7 +3,7 @@
  <div class="uk-float-right">
   <form class="uk-search uk-search-default">
     <span uk-search-icon></span>
-    <input id="myfilter" class="uk-form-width-small uk-search-input" type="search" placeholder="{{site.data.settings.menu.page.search}}" aria-label="Search">
+    <input id="myfilter" class="uk-form-width-small uk-search-input" type="search" placeholder="{{ site.data.settings.page.search }}" aria-label="Search">
   </form>   
  </div>
  <div class="uk-float-left">
@@ -17,7 +17,7 @@
 <nav uk-dropnav="mode: click">
    <ul class="uk-subnav">
         <li uk-filter-control><a href="#">{{site.data.settings.menu.page.all}}</a></li>
-        {% if page.active == "pragmatic-play" %}
+        {% if page.active == "pragmaticplay" %}
         <li><a uk-filter-control="[data-pilih='new']" href="#new">{{site.data.settings.menu.page.new}}</a></li>
         <li>
             <a href="#">{{site.data.settings.menu.page.line}} <span uk-drop-parent-icon></span></a>
