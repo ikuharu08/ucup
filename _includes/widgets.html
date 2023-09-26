@@ -1,0 +1,98 @@
+<div class="uk-child-width-expand@s" uk-height-match="target: SELECTOR" uk-grid><!-- grids -->
+
+{% for item in site.data.settings.feature %} 
+<div><!-- grid div -->
+ <div class="uk-card uk-card-default uk-card-body uk-border-rounded"><!-- card -->
+  <!-- clearfix -->
+  <div class="uk-clearfix">
+   <div class="uk-float-left">
+     <p class="as_provider_icon uk-text-bold uk-text-uppercase"><span class="icon-pragmatic"></span> {{ item.title }}</p><!-- card title --> 
+   </div>
+   <div class="uk-float-right">
+     <a href="{{ item.url | relative_url }}" class="uk-button uk-button-text uk-text-capitalize">Lihat Semua <span uk-icon="icon: arrow-right"></span></a>
+    </div>
+   </div>
+   <!-- /clearfix -->                 
+   <div class="uk-grid-small" uk-grid><!-- begin content grids -->
+   <!-- begin content imgs -->
+   {% for item in item.images %} 
+   <div class="uk-width-1-2">
+    <a href="{{ item.url | relative_url }}">
+     <img class="uk-border-rounded" src="{{ item.img }}" width="1800" height="1200" alt="{{ item.title }}">
+    </a>
+   </div>
+   {% endfor %} 
+   <!-- /End content imgs -->
+  </div><!-- /End content grids -->
+ </div><!-- /card -->
+</div><!-- /grid div -->
+{% endfor %} 
+
+</div><!-- /Grids -->
+
+<div class="uk-text-center uk-margin">
+<a href="#!" class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Lihat Semua Game</a>
+</div>
+
+<div class="uk-card uk-card-default uk-margin uk-border-rounded">
+ <div class="uk-border-rounded uk-card-header">
+  <div class="uk-grid-small uk-flex-middle" uk-grid>
+   <div class="uk-width-auto">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEhklEQVR4nO1aS48VRRRujfERMBrEFa6EuHHhgxgSYSJx4U5Rdm4Y/A+6migOiWHCsHGPgZULHlEXGl2QId4Q0EyGu2huf6c6k5tMcvHJwwnEFWlymFNDzdj1uLdpbtfYX1K5t+r0OV31dZ9Tp6o6SVq0aNGiRYsHAiK6QERFzaWTNBVU/+DvlaSpIEcHlVKvsQzAFYd+JjZeGdZ+I0CODgL4TOTHbfoATsg1U8PabwTI0sF+v/8sgN9ZppR6y6YP4G2x8dvi4uIzofYbAyrpYFEUjwI4I7JzLv2iKB4BcF6uPcV1n/1GgdZ1UJ68Hvy1PM93+Gz0er2XiOi66JxmGzb7jQPdj9Svss8D+EMPHsBuy7T5n2mNiCY0Cew6AD5lmzERUBjlnO3J8+AB/Ox4E+ainAYB9DjauwJeKLIs20tEX4nNOAhIIrVfGS0B5H9CSqnniWgawAKA20S0DOCytG0dJ8GV4esgEX0A4IYtxwfwDxHtd+hbg2YMqfA+AHfkmm84QHa73U08zyul3iGiH4WEOy4SGg2yENDr9Z4znvzHDv1pIeGmzx2iIgAriQwP7CzXlVJPAJiVROkqgC+IaEavF6RMhyZOjSeAiH4VAvZwHcAx35qfg2So/RgI+Jvb+/3+k1L/i+tZlr3JpBiDfiPLsqelvhxqPxoClpaWnuI6gD9lwLsl79dPfpcmgGeEUPsxxIBfRDYh9dmAra/5UPsxvAFTJUHwqAS9gQ6CvBFiuMOhUPuNAVk6mKbpFmON/4lD/7BrGoyWAIZS6l0jEfqOV3lpmm7WiRCAn3QiBOD9pARRE8DIsuw9Typ8k9PlxILoCTCywkMc5Hiqk8L/P2dZ4sCGIKAKoiEAK0vdL3XmV9HmhNhaeOgEdLvdTQAueebr1dzc4tffE9GLw95bKbWdiH4IyBdc6fQlHsPIBAA4GXCT1fW5bpNjsCm9K8zzfZ7nr4cubrIs22no8u+UPlobgYSTIw2eiA6KkVt5nr8cqLPmFZW09rS0cx6wzbfBoZR6wZgpTrENm30XuM/cd9E5GDRoU1m2q4ZSLuugnPZ8rd0hwMa3cu0ZPlXy2ffY+lBs/Ws7cLX5/RVRPJGM/3sAX3HuD+gDVx5TUDyA+H2IAt983AT49gjlgaZB8UAp9dGwfh8D5JRp2enS+Yh+Hwu88YBW0tFx+3OtMcL4AGN+bN/30BhjBMcD3W4lINngaAmg9g0ohnYBWpvwDHj/Lk3Tx7Vc7/HJnh7Lj5hyABfZxtzc3GOGvU6oviXh6oTKK7sAlQeYGWOAR0vkR0r0J8vuFaDfCVmE2eQPjIBkpbP6IGNgyK/KTffIXv96ue6Y4rdg/b18+r4+DhPAKxNQpS7lwLD6o7Y3lQDlkRejElB7DEiqE7A6+LoJqC0GVCRg0kWArT5qey0E0P3DTDPIDXQQs8jv6UsAVNESQPZpaiZkGpT/tQXBOmNAx5UI8X8hYVAmN/f++C3gD6L5KKxMXlYPaa81BmwktARQ+wYUThegOIpvIeQtjdzhpcCyPmBW0W+R/M9xF3mQseeBs9DhAAAAAElFTkSuQmCC">
+   </div>
+   <div class="uk-width-expand">
+    <h3 class="uk-card-title uk-margin-remove-bottom">Donasi</h3>
+    <p class="uk-text-meta uk-text uk-margin-remove"><span>Kami butuh kuota data internet! Silahkan donasi seikhlasnya untuk kelangsungan situs ini.</span></p>
+    <p class="uk-margin-remove-top"><span class="uk-text-bold">Dana ewallet: 0881024240202</span></p>
+   </div>       
+  </div>
+ </div>
+</div>
+
+<div class="uk-card uk-card-default uk-border-rounded uk-margin">
+<ul class="uk-padding uk-accordion" uk-accordion>
+    <li>
+        <a class="uk-accordion-title" href="#">Apakah saya bisa mengklaim kemenangan?</a>
+        <div class="uk-accordion-content">
+            <p>Tidak. Anda tidak dapat mengklaim, atau mencairkan kemenangan JP atau Maxwin dari permainan demo.</p>
+        </div>
+    </li>
+    <li>
+        <a class="uk-accordion-title" href="#">Apakah saya dapat memutar ulang game yang pernah saya mainkan?</a>
+        <div class="uk-accordion-content">
+            <p>Tidak.</p>
+        </div>
+    </li>
+    <li>
+        <a class="uk-accordion-title" href="#">Game tidak bisa dimainkan</a>
+        <div class="uk-accordion-content">
+            <p>Mohon dimaklum, karena perjudian termasuk game slot dilarang oleh pemerintah Indonesia, jadi bisa saja diblokir, oleh karena itu game tidak dapat dimainkan. Silahkan laporkan melalui whatsapp: 0881024240202. Kami akan memperbaikinya dengan mengupdate link terbaru agar anda dapat bermain kembali.</p>
+        </div>
+    </li>
+    <li>
+        <a class="uk-accordion-title" href="#">Dimana saya bermain game provider kesukaan saya?</a>
+        <div class="uk-accordion-content">
+            <p>Kami tidak akan merekomendasikan situs bo slot manapun, jadi anda dapat bermain game dari provider favorit anda disitus bo slot tempat anda sering bermain.</p>
+            <h4 class="uk-remove-bottom">Server/Engine: Infini</h4>
+            <p class="uk-remove-top">Pragmatic Play, PG Soft, Jili, Advant Play, Spadegaming, Playstar, CQ9, Yggdrasil, Bigpot Gaming, Nolimit City, Playtech, Microgaming, Habanero, Joker Gaming, Slot88, Fachai, Dragoon Soft, Mimi Gaming Slot, BBIN.</p>
+            <h4 class="uk-remove-bottom">Server/Engine: IDN Slot</h4>
+            <p class="uk-remove-top">Pragmatic Play, PG Soft, Microgaming, IDN Slot, Toptrend Gaming, GMW (Game Media Works), Habanero, Nolimit City, Gameart, Booming Games, Playson.</p>
+            <h4 class="uk-remove-bottom">Server/Engine: Nexus</h4>
+            <p class="uk-remove-top">Pragmatic Play, PG Soft, Joker Gaming, Habanero, Playtech, Microgaming, Hacksaw Gaming, Relax Gaming, Play'n Go, CQ9 Gaming, Yggdrasil, Playson, Spadegaming, Fastspin, Toptrend Gaming, Booming Games, Skywind Group, Playstar, Red Tiger, Evoplay, NetEnt, Nolimit City, Mancala Gaming, Eurasian Gaming, Sbobet, Ka Gaming, Naga Games, Ais Gaming, Dragoon Soft, Reevo, Fa Chai, Bgaming, Advant Play, Live22, Apollo777, JDB Gaming, Jili, GMW (Game Media Works), 568win, BNG Games.</p>
+            <h4 class="uk-remove-bottom">Server/Engine: UG</h4>
+            <p class="uk-remove-top">Pragmatic Play, PG Soft, Joker Gaming, Habanero, Playtech, Microgaming, Hacksaw Gaming, Relax Gaming, Play'n Go, CQ9 Gaming, Yggdrasil, Playson, Spadegaming, BNG Games, Fastspin, Toptrend Gaming, Skywind Group, Playstar, Red Tiger, Evoplay, NetEnt, Nolimit City, Manacala Gaming, Eurasian Gaming, SBOBET Casino, Ka Gaming, Naga Games, Ais Gaming, Dragoon Soft, Reevo, Live22, Fa Chai, Bgaming, Advant Play, Apollo777, JDB gaming, Jili, 568win, GMW. </p>
+            <h4 class="uk-remove-bottom">Server/Engine: Pay4D</h4>
+            <p class="uk-remove-top">PG Soft, Pragmatic Play, Habanero, Spadegaming, Joker Gaming, Nolimit City, Jili, Microgaming, Playstar, Fastspin  NetEnt, Live22, Ais Gaming  CQ9 Gaming, Toptrend Gaming, SBOBET Casino. </p>
+            <h4 class="uk-remove-bottom">Server/Engine: MPO</h4>
+            <p class="uk-remove-top">PG Soft, Pragmatic Play, AFB Gaming, Lucky361, Live22, Relax Gaming, Advant Play, Playstar, Red Tiger, NetEnt, Yggdrasil, Habanero, Spinomenal, Simpleplay, Creative Gaming, JDB Gaming, Play'n Go, AvatarUX, Nolimit City, Ais Gaming, Booming Games, Evoplay, Big Time Gaming, Nextspin, Hacksaw Gaming, Naga Games, Jili.  </p>
+            <h4>Server/Engine: Nuke Gaming</h4>
+            <p>Pragmatic Play, Advant Play, PG Soft, Nolimit City, Microgaming, Habanero, NetEnt, Xin Gaming, Red Tiger, CQ9 Gaming, Ais Games, Spadegaming, Yggdrasil, Joker, 568win. </p>
+        </div>
+    </li>    
+</ul>
+</div>      
+
+<div class="uk-position-relative uk-light uk-margin uk-text-center">
+ <img src="https://l154gamer.github.io/assets/18plus.svg" alt="18 Plus Web Akses" width="25" height="25" uk-svg>
+ <a href="https://l154gamer.github.io/app/android/L154Gamer_AndroidApp.apk"><img src="https://l154gamer.github.io/assets/download-app.svg" alt="Download Apk Android" width="120" height="120"></a>
+</div>
