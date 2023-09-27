@@ -7,9 +7,9 @@
         <h3>{{ site.title }}</h3>
 
         <ul class="uk-nav uk-nav-primary">
-            <li class="uk-nav-header">Menu</li>
-            <li><a href="{{ site.url }}"><span class="uk-margin-small-right" uk-icon="icon: home"></span> Beranda</a></li>
-            <li><a href="#!"><span class="uk-margin-small-right" uk-icon="icon: info"></span> Penafian</a></li>                  
+            <li class="uk-nav-header">{% if page.locale %}{{ site.data.locales[page.locale].page.menu }}{% else %}{{ site.data.settings.page.menu }}{% endif %}</li>
+            <li><a href="{{ site.url }}"><span class="uk-margin-small-right" uk-icon="icon: home"></span> {% if page.locale %}{{ site.data.locales[page.locale].page.home }}{% else %}{{ site.data.settings.page.home }}{% endif %}</a></li>
+            <li><a href="#!"><span class="uk-margin-small-right" uk-icon="icon: info"></span> {% if page.locale %}{{ site.data.locales[page.locale].page.disclaimer }}{% else %}{{ site.data.settings.page.disclaimer }}{% endif %}</a></li>                  
             <li class="uk-nav-divider"></li>
             <li class="uk-nav-header">
              <div class="uk-clearfix">
@@ -17,7 +17,7 @@
                <span class="uk-nav-header">Providers</span>
               </div>
               <div class="uk-float-right">
-               <a href="{{ "byprovider" | relative_url }}" class="uk-button uk-button-text uk-text-capitalize">Lihat Semua <span uk-icon="icon: chevron-right"></span></a>
+               <a href="{{ "byprovider" | relative_url }}" class="uk-button uk-button-text uk-text-capitalize">{% if page.locale %}{{ site.data.locales[page.locale].page.view_all }}{% else %}{{ site.data.settings.page.view_all }}{% endif %} <span uk-icon="icon: chevron-right"></span></a>
               </div>
              </div>    
             </li>       
