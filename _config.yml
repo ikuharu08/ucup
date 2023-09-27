@@ -5,6 +5,7 @@ url:            "https://batikgaming.github.io/"
 markdown: kramdown
 future: true
 encoding: UTF-8
+locales: ["id", "en"]
 include:
   - _pages
 
