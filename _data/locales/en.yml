@@ -1,6 +1,22 @@
 name: English
-site_url: /en
+site_url: /en/
 
 site:
   title: Batik Gaming
+
+page:
+  menu: Menu
+  search: Search
+  view_all: Show All
+  all: All Games
+  games: Games
+  line: Line
+  table_games: Table Games
+  egypt: Egypt
+  mahjong: Mahjong
+  classic: Classic
+  table: Table
+  new: New Games
+  nodata: No game data
+  providers: Providers
 
