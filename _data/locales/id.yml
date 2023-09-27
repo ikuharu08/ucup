@@ -6,6 +6,8 @@ site:
 
 page:
   menu: Menu
+  home: Beranda
+  disclaimer: Penafian
   search: Cari
   view_all: Lihat Semua
   all: Semua
