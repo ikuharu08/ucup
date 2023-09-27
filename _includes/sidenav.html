@@ -8,7 +8,7 @@
 
         <ul class="uk-nav uk-nav-primary">
             <li class="uk-nav-header">{% if page.locale %}{{ site.data.locales[page.locale].page.menu }}{% else %}{{ site.data.settings.page.menu }}{% endif %}</li>
-            <li><a href="{{ site.url }}"><span class="uk-margin-small-right" uk-icon="icon: home"></span> {% if page.locale %}{{ site.data.locales[page.locale].page.home }}{% else %}{{ site.data.settings.page.home }}{% endif %}</a></li>
+            <li><a href="{{ site.baseurl }}"><span class="uk-margin-small-right" uk-icon="icon: home"></span> {% if page.locale %}{{ site.data.locales[page.locale].page.home }}{% else %}{{ site.data.settings.page.home }}{% endif %}</a></li>
             <li><a href="#!"><span class="uk-margin-small-right" uk-icon="icon: info"></span> {% if page.locale %}{{ site.data.locales[page.locale].page.disclaimer }}{% else %}{{ site.data.settings.page.disclaimer }}{% endif %}</a></li>                  
             <li class="uk-nav-divider"></li>
             <li class="uk-nav-header">
@@ -17,12 +17,12 @@
                <span class="uk-nav-header">{% if page.locale %}{{ site.data.locales[page.locale].page.providers }}{% else %}{{ site.data.settings.page.providers }}{% endif %}</span>
               </div>
               <div class="uk-float-right">
-               <a href="{{ "byprovider" | relative_url }}" class="uk-button uk-button-text uk-text-capitalize">{% if page.locale %}{{ site.data.locales[page.locale].page.view_all }}{% else %}{{ site.data.settings.page.view_all }}{% endif %} <span uk-icon="icon: chevron-right"></span></a>
+               <a href="{{ site.baseurl }}{{ byprovider }}" class="uk-button uk-button-text uk-text-capitalize">{% if page.locale %}{{ site.data.locales[page.locale].page.view_all }}{% else %}{{ site.data.settings.page.view_all }}{% endif %} <span uk-icon="icon: chevron-right"></span></a>
               </div>
              </div>    
             </li>       
             {% for item in site.data.settings.providers %}
-            <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+            <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
             {% endfor %}            
         </ul>
 
