@@ -3,6 +3,7 @@ layout: main
 title: Pragmatic Play
 permalink: /en/pragmaticplay/
 active: pragmaticplay
+locale: en
 ---
 
 <div id="grid" class="js-filter uk-grid-small uk-grid-match" uk-height-match="target: > div > .uk-card" uk-grid>
@@ -22,6 +23,6 @@ active: pragmaticplay
   </div>
  </div>       
 {% else %}
-<p>{{ site.data.settings.page.nodata }}</p>
- {% endfor %}        
+{% if page.locale %}<p>{{ site.data.locales[page.locale].page.nodata }}{% else %}{{ site.data.settings.page.nodata }}</p>{% endif %}
+{% endfor %}        
 </div>
