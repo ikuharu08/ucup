@@ -3,7 +3,10 @@
  <div class="uk-float-right">
   <form class="uk-search uk-search-default">
     <span uk-search-icon></span>
-    <input id="myfilter" class="uk-form-width-small uk-search-input" type="search" placeholder="{{ site.data.settings.page.search }}" aria-label="Search">
+    <input id="myfilter" class="uk-form-width-small uk-search-input" 
+     type="search" 
+     placeholder="{% if page.locale %}{{ site.data.locales[page.locale].page.search }}{% else %}{{ site.data.settings.page.search }}{% endif %}" 
+     aria-label="Search">
   </form>   
  </div>
  <div class="uk-float-left">
@@ -16,11 +19,11 @@
 <div class="uk-overflow-autos">
 <nav uk-dropnav="mode: click">
    <ul class="uk-subnav">
-        <li uk-filter-control><a href="#">{{ site.data.settings.page.all }}</a></li>
+        <li uk-filter-control><a href="#">{% if page.locale %}{{ site.data.locales[page.locale].page.all }}{% else %}{{ site.data.settings.page.all }}{% endif %}</a></li>
         {% if page.active == "pragmaticplay" %}
         <li><a uk-filter-control="[data-pilih='new']" href="#new">{{ site.data.settings.page.new }}</a></li>
         <li>
-            <a href="#">{{ site.data.settings.page.line }} <span uk-drop-parent-icon></span></a>
+            <a href="#">{% if page.locale %}{{ site.data.locales[page.locale].page.line }}{% else %}{{ site.data.settings.page.line }}{% endif %} <span uk-drop-parent-icon></span></a>
             <div class="uk-dropdown">
               <ul class="uk-nav uk-dropdown-nav">
                  <li><a uk-filter-control="[data-pilih='megaways']" href="#megaways">Megaways</a></li>
@@ -36,16 +39,16 @@
         </li>
         {% endif %}
         {% if page.active == "pgsoft" %}
-         <li><a uk-filter-control="[data-pilih='new']" href="#new">{{ site.data.settings.page.new }}</a></li>
-         <li><a uk-filter-control="[data-pilih='table']" href="#table">{{ site.data.settings.page.table }}</a></li>
+         <li><a uk-filter-control="[data-pilih='new']" href="#new">{% if page.locale %}{{ site.data.locales[page.locale].page.new }}{% else %}{{ site.data.settings.page.new }}{% endif %}</a></li>
+         <li><a uk-filter-control="[data-pilih='table']" href="#table">{% if page.locale %}{{ site.data.locales[page.locale].page.table }}{% else %}{{ site.data.settings.page.table }}{% endif %}</a></li>
         {% endif %}
         {% if page.active == "kagaming" %}
          <li><a uk-filter-control="[data-pilih='megaways']" href="#megaways">Megaways</a></li>
-         <li><a uk-filter-control="[data-pilih='table']" href="#table">{{ site.data.settings.page.table }}</a></li>
+         <li><a uk-filter-control="[data-pilih='table']" href="#table">{% if page.locale %}{{ site.data.locales[page.locale].page.table }}{% else %}{{ site.data.settings.page.table }}{% endif %}</a></li>
         {% endif %}
         {% if page.active == "mahjong" %}
         <li>
-            <a href="#">Providers <span uk-drop-parent-icon></span></a>
+            <a href="#">{% if page.locale %}{{ site.data.locales[page.locale].page.providers }}{% else %}{{ site.data.settings.page.providers }}{% endif %} <span uk-drop-parent-icon></span></a>
             <div class="uk-dropdown">
               <ul class="uk-nav uk-dropdown-nav">
                  <li><a uk-filter-control="[data-pilih='pgsoft']" href="#pgsoft">PG Soft</a></li>
@@ -73,10 +76,10 @@
         {% endif %}
         {% if page.active == "gameart" %}
          <li><a uk-filter-control="[data-pilih='megaways']" href="#megaways">Megaways</a></li>
-         <li><a uk-filter-control="[data-pilih='table']" href="#table">{{site.data.settings.page.table}}</a></li>
+         <li><a uk-filter-control="[data-pilih='table']" href="#table">{% if page.locale %}{{ site.data.locales[page.locale].page.table }}{% else %}{{ site.data.settings.page.table }}{% endif %}</a></li>
         {% endif %}
         {% if page.active == "evoplay" %}
-         <li><a uk-filter-control="[data-pilih='table']" href="#table">{{site.data.settings.page.table}}</a></li>
+         <li><a uk-filter-control="[data-pilih='table']" href="#table">{% if page.locale %}{{ site.data.locales[page.locale].page.table }}{% else %}{{ site.data.settings.page.table }}{% endif %}</a></li>
         {% endif %}
     </ul>
 </nav>
