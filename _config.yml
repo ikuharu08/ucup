@@ -8,4 +8,35 @@ encoding: UTF-8
 include:
   - _pages
 
+language_default: id
+collections_dir: content
+collections:
+  id:
+    output: true
+    permalink: /:collection/:slug
+  en:
+    output: true
+    permalink: /:collection/:slug
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "id"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "en"
+    values:
+      layout: "page"
+
+
 
