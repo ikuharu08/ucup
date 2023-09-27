@@ -34,6 +34,8 @@
 <a href="#!" class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">{% if page.locale %}{{ site.data.locales[page.locale].page.view_all }}{% else %}{{ site.data.settings.page.view_all }}{% endif %}</a>
 </div>
 
+{% if page.locale == 'en' %}
+{% else %}
 <div class="uk-card uk-card-default uk-margin uk-border-rounded">
  <div class="uk-border-rounded uk-card-header">
   <div class="uk-grid-small uk-flex-middle" uk-grid>
@@ -91,6 +93,7 @@
     </li>    
 </ul>
 </div>      
+{% endif %}
 
 <div class="uk-position-relative uk-light uk-margin uk-text-center">
  <img src="{{ "/assets/img/kits/18plus.svg" | relative_url }}" alt="18 Plus Web Akses" width="25" height="25" uk-svg>
