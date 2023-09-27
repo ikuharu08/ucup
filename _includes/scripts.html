@@ -140,9 +140,8 @@ window
   })  
 </script>
 <script>
-$('select').change(function(){
-    var url = $(this).val();
-    window.location = url;
-});  
+document.getElementById("lang").addEventListener('change', function () {
+    window.location = this.value;
+}, false);​
 </script>
 <!-- /Scripts -->
