@@ -7,11 +7,10 @@ future: true
 encoding: UTF-8
 remote_theme: l154gamer
 locales: ["id", "en"]
+language_default: id
 include:
   - _pages
 
-language_default: id
-collections_dir: content
 collections:
   id:
     output: true
@@ -39,6 +38,4 @@ defaults:
       type: "en"
     values:
       layout: "page"
-
-
 
