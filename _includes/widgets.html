@@ -6,10 +6,10 @@
   <!-- clearfix -->
   <div class="uk-clearfix">
    <div class="uk-float-left">
-     <p class="as_provider_icon uk-text-bold uk-text-uppercase"><span class="icon-pragmatic"></span> {{ item.title }}</p><!-- card title --> 
+     <p class="uk-text-bold uk-text-uppercase">{{ item.title }}</p><!-- card title --> 
    </div>
    <div class="uk-float-right">
-     <a href="{{ item.url | relative_url }}" class="uk-button uk-button-text uk-text-capitalize">{% if page.locale %}{{ site.data.locales[page.locale].page.view_all }}{% else %}{{ site.data.settings.page.view_all }}{% endif %} <span uk-icon="icon: arrow-right"></span></a>
+     <a href="{{ site.baseurl }}{{ item.url }}" class="uk-button uk-button-text uk-text-capitalize">{% if page.locale %}{{ site.data.locales[page.locale].page.view_all }}{% else %}{{ site.data.settings.page.view_all }}{% endif %} <span uk-icon="icon: arrow-right"></span></a>
     </div>
    </div>
    <!-- /clearfix -->                 
