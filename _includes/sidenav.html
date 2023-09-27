@@ -14,7 +14,7 @@
             <li class="uk-nav-header">
              <div class="uk-clearfix">
               <div class="uk-float-left">
-               <span class="uk-nav-header">Providers</span>
+               <span class="uk-nav-header">{% if page.locale %}{{ site.data.locales[page.locale].page.providers }}{% else %}{{ site.data.settings.page.providers }}{% endif %}</span>
               </div>
               <div class="uk-float-right">
                <a href="{{ "byprovider" | relative_url }}" class="uk-button uk-button-text uk-text-capitalize">{% if page.locale %}{{ site.data.locales[page.locale].page.view_all }}{% else %}{{ site.data.settings.page.view_all }}{% endif %} <span uk-icon="icon: chevron-right"></span></a>
