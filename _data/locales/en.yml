@@ -6,6 +6,8 @@ site:
 
 page:
   menu: Menu
+  home: Lobby
+  disclaimer: Disclaimer
   search: Search
   view_all: Show All
   all: All Games
@@ -14,8 +16,8 @@ page:
   table_games: Table Games
   egypt: Egypt
   mahjong: Mahjong
-  classic: Classic
-  table: Table
+  classic: Classic Games
+  table: Table Games
   new: New Games
   nodata: No game data
   providers: Providers
