@@ -9,7 +9,7 @@
      <p class="as_provider_icon uk-text-bold uk-text-uppercase"><span class="icon-pragmatic"></span> {{ item.title }}</p><!-- card title --> 
    </div>
    <div class="uk-float-right">
-     <a href="{{ item.url | relative_url }}" class="uk-button uk-button-text uk-text-capitalize">Lihat Semua <span uk-icon="icon: arrow-right"></span></a>
+     <a href="{{ item.url | relative_url }}" class="uk-button uk-button-text uk-text-capitalize">{% if page.locale %}{{ site.data.locales[page.locale].page.view_all }}{% else %}{{ site.data.settings.page.view_all }}{% endif %} <span uk-icon="icon: arrow-right"></span></a>
     </div>
    </div>
    <!-- /clearfix -->                 
@@ -31,7 +31,7 @@
 </div><!-- /Grids -->
 
 <div class="uk-text-center uk-margin">
-<a href="#!" class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Lihat Semua Game</a>
+<a href="#!" class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">{% if page.locale %}{{ site.data.locales[page.locale].page.view_all }}{% else %}{{ site.data.settings.page.view_all }}{% endif %}</a>
 </div>
 
 <div class="uk-card uk-card-default uk-margin uk-border-rounded">
