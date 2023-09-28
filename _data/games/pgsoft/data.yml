@@ -374,13 +374,6 @@ id_ID:
     url: https://m.pgsoft-games.com/39/index.html?l=id&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://l154gamer.github.io/games/quit&__refer=m.pg-redirect.net&or=static.pgsoft-games.com
     provider: PG Soft
   
-  - title: Sushi Oishi
-    gameid: 109
-    img: sushi-oishi.webp
-    disable: disable
-    url: https://m.pgsoft-games.com/109/index.html?l=id&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://l154gamer.github.io/games/quit&__refer=m.pg-redirect.net&or=static.pgsoft-games.com
-    provider: PG Soft
-  
   - title: Galactic Gems
     gameid: 86
     img: galactic-gems.webp
@@ -397,14 +390,6 @@ id_ID:
     gameid: 64
     img: muay-thai-champion.webp
     url: https://m.pgsoft-games.com/64/index.html?l=id&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://l154gamer.github.io/games/quit&__refer=m.pg-redirect.net&or=static.pgsoft-games.com
-    provider: PG Soft
-  
-  - title: Farm Invaders
-    gameid: 116
-    img: farm-invaders.webp
-    disable: disable
-    url: https://m.pgsoft-games.com/116/index.html?l=id&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://l154gamer.github.io/games/quit&__refer=m.pg-redirect.net&or=static.pgsoft-games.com
-    lang: Penjajah Ladang
     provider: PG Soft
   
   - title: Emoji Riches
@@ -677,7 +662,9 @@ id_ID:
     img: majestic-treasures.webp
     url: https://m.pgsoft-games.com/95/index.html?l=id&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://l154gamer.github.io/games/quit&__refer=m.pg-redirect.net&or=static.pgsoft-games.com
     provider: PG Soft
-  
+
+# Game tidak tersedia
+
   - title: Steampunk Wheel of Destiny
     gameid: 
     img: steampunk-wheel-of-destiny.webp
@@ -705,7 +692,7 @@ id_ID:
     disable: disable
     provider: PG Soft  
 
-   - title: 3 Monkeys
+  - title: 3 Monkeys
     img: 3monkeys.webp
     url: https://m.pgsoft-games.com/43/index.html?l=id&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://l154gamer.github.io/games/quit&__refer=m.pg-redirect.net&or=static.pgsoft-games.com
     gameid: 43
@@ -725,3 +712,18 @@ id_ID:
     img: wizdom-wonders.webp
     disable: disable
     provider: PG Soft
+
+  - title: Sushi Oishi
+    gameid: 109
+    img: sushi-oishi.webp
+    disable: disable
+    url: https://m.pgsoft-games.com/109/index.html?l=id&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://l154gamer.github.io/games/quit&__refer=m.pg-redirect.net&or=static.pgsoft-games.com
+    provider: PG Soft
+    
+  - title: Farm Invaders
+    gameid: 116
+    img: farm-invaders.webp
+    disable: disable
+    url: https://m.pgsoft-games.com/116/index.html?l=id&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://l154gamer.github.io/games/quit&__refer=m.pg-redirect.net&or=static.pgsoft-games.com
+    provider: PG Soft
+
