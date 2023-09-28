@@ -63,4 +63,61 @@
   disable: disable
   provider: Nolimit City
 
+- title: Mental
+  img: mental_compressed.webp
+  url: https://prod.nlcasiacdn.net/loader/game-loader.html?operator=DCCBG007&language=en&device=mobile&game=Mental&fullscreen=True
+  type: videoslot
+  provider: Nolimit City
+
+- title: Punk Toilet
+  img: punk-toilet_compressed.webp
+  url: https://prod.nlcasiacdn.net/loader/game-loader.html?operator=DCCBG007&language=en&device=mobile&game=PunkToilet&fullscreen=True
+  type: videoslot
+  provider: Nolimit City
+
+- title: Dead Canary
+  img: dead-canary_compressed.webp
+  url: https://prod.nlcasiacdn.net/loader/game-loader.html?operator=DCCBG007&language=en&device=mobile&game=PunkToilet&fullscreen=True
+  type: videoslot
+  provider: Nolimit City
+
+- title: Dragon Tribe
+  img: dragon-tribe_compressed.webp
+  url: 
+  type: videoslot
+  disable: disable
+  provider: Nolimit City
+
+- title: Golden Genie
+  img: golden-genie_compressed.webp
+  url: 
+  type: videoslot
+  disable: disable
+  provider: Nolimit City
+
+- title: The Cage
+  img: the-cage_compressed.webp
+  url: 
+  type: videoslot
+  disable: disable
+  provider: Nolimit City
+
+- title: True Kult
+  img: true-kult_compressed.webp
+  url: 
+  type: videoslot
+  disable: disable
+  provider: Nolimit City
+
+- title: True Grit Redemption
+  img: true-grit-redemption_compressed.webp
+  url: https://prod.nlcasiacdn.net/loader/game-loader.html?operator=DCCBG007&language=en&device=mobile&game=TrueGrit&fullscreen=True
+  type: videoslot
+  provider: Nolimit City
+
+- title: Pearl Harbor
+  img: pearl-harbor.webp
+  url: https://prod.nlcasiacdn.net/loader/game-loader.html?operator=DCCBG007&language=en&device=mobile&game=PearlHarbor&fullscreen=True
+  type: videoslot
+  provider: Nolimit City
 
