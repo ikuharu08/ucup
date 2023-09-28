@@ -172,13 +172,13 @@
   provider: Nolimit City
 
 - title: Kitchen Drama Sushi Mania
-  img: sushi-mania_compressed.webp
+  img: kitchen-drama-sushi-mania_compressed.webp
   url: https://prod.nlcasiacdn.net/loader/game-loader.html?operator=DCCBG007&language=en&device=mobile&game=KitchenDramaSushiMania&fullscreen=True
   type: videoslot
   provider: Nolimit City
 
 - title: Kitchen Drama BBQ Frenzy
-  img: bbq-frenzy_compressed.webp
+  img: kitchen-drama-bbq-frenzy_compressed.webp
   url: https://prod.nlcasiacdn.net/loader/game-loader.html?operator=DCCBG007&language=en&device=mobile&game=KitchenDramaBbqFrenzy&fullscreen=True
   type: videoslot
   provider: Nolimit City
@@ -196,13 +196,13 @@
   provider: Nolimit City
 
 - title: Elpaso Gunfight
-  img: elpaso_compressed.webp
+  img: elpaso-gunfight_compressed.webp
   url: https://prod.nlcasiacdn.net/loader/game-loader.html?operator=DCCBG007&language=en&device=mobile&game=ElpasoGunfight&fullscreen=True
   type: videoslot
   provider: Nolimit City
 
 - title: Barbarian Fury
-  img: barbarian-fury_compressed.webp
+  img: barbarianfury_compressed.webp
   url: https://prod.nlcasiacdn.net/loader/game-loader.html?operator=DCCBG007&language=en&device=mobile&game=BarbarianFury&fullscreen=True
   type: videoslot
   provider: Nolimit City
@@ -232,7 +232,7 @@
   provider: Nolimit City
 
 - title: Tombstone
-  img: tombstone_compresses.webp
+  img: tombstone_compressed.webp
   url: https://prod.nlcasiacdn.net/loader/game-loader.html?operator=DCCBG007&language=en&device=mobile&game=Tombstone&fullscreen=True
   type: videoslot
   provider: Nolimit City
@@ -256,7 +256,7 @@
   provider: Nolimit City
 
 - title: Book of Shadows
-  img: book-of-shadows_compressed.webp
+  img: blood-and-shadow_compressed.webp
   url: https://prod.nlcasiacdn.net/loader/game-loader.html?operator=DCCBG007&language=en&device=mobile&game=BookOfShadows&fullscreen=True
   type: videoslot
   provider: Nolimit City
