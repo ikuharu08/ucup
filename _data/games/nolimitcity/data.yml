@@ -134,4 +134,9 @@
   type: videoslot
   provider: Nolimit City
 
-
+- title: Infectious 5
+  img: infectious5_compressed.webp
+  url: 
+  type: videoslot
+  disable: disable
+  provider: Nolimit City
