@@ -241,13 +241,6 @@ id_ID:
     gameid: 128
     provider: PG Soft
   
-  - title: Groundhog Harvest
-    img: groundhog-harvest.webp
-    url: https://m.pgsoft-games.com/111/index.html?l=id&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://l154gamer.github.io/games/quit&__refer=m.pg-redirect.net&or=static.pgsoft-games.com
-    gameid: 111
-    disable: disable
-    provider: PG Soft
-  
   - title: Dragon Legend - Mythical Treasure Jackpot
     img: dragon-legend.webp
     url: https://m.pgsoft-games.com/29/index.html?l=id&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://l154gamer.github.io/games/quit&__refer=m.pg-redirect.net&or=static.pgsoft-games.com
@@ -344,13 +337,7 @@ id_ID:
     url: https://m.pgsoft-games.com/119/index.html?l=id&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://l154gamer.github.io/games/quit&__refer=m.pg-redirect.net&or=static.pgsoft-games.com
     gameid: 119
     provider: PG Soft
-  
-  - title: 3 Monkeys
-    img: 3monkeys.webp
-    url: https://m.pgsoft-games.com/43/index.html?l=id&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://l154gamer.github.io/games/quit&__refer=m.pg-redirect.net&or=static.pgsoft-games.com
-    gameid: 43
-    provider: PG Soft
-  
+    
   - title: Midas Fortune
     img: midas-fortune.webp
     url: https://m.pgsoft-games.com/1402846/index.html?l=id&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://l154gamer.github.io/games/quit&__refer=m.pg-redirect.net&or=static.pgsoft-games.com
@@ -450,20 +437,6 @@ id_ID:
     img: baccarat-deluxe.webp
     type: table
     provider: PG Soft
-
-  - title: American Blackjack
-    url: 
-    img: american-blackjack.webp
-    type: table
-    disable: disable
-    provider: PG Soft
-
-  - title: European Blackjack
-    url: 
-    img: european-blackjack.webp
-    type: table
-    disable: disable
-    provider: PG Soft  
   
   - title: Fortune Tiger
     gameid: 126
@@ -541,13 +514,6 @@ id_ID:
     gameid: 37
     url: https://m.pgsoft-games.com/37/index.html?l=id&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://l154gamer.github.io/games/quit&__refer=m.pg-redirect.net&or=static.pgsoft-games.com
     img: santas-gift-rush.webp
-    provider: PG Soft
-  
-  - title: Wizdom Wonders
-    gameid: 17
-    url: https://m.pgsoft-games.com/17/index.html?l=id&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://l154gamer.github.io/games/quit&__refer=m.pg-redirect.net&or=static.pgsoft-games.com
-    img: wizdom-wonders.webp
-    disable: disable
     provider: PG Soft
   
   - title: Alchemy Gold
@@ -725,4 +691,37 @@ id_ID:
     url: 
     provider: PG Soft
 
+  - title: American Blackjack
+    url: 
+    img: american-blackjack.webp
+    type: table
+    disable: disable
+    provider: PG Soft
 
+  - title: European Blackjack
+    url: 
+    img: european-blackjack.webp
+    type: table
+    disable: disable
+    provider: PG Soft  
+
+   - title: 3 Monkeys
+    img: 3monkeys.webp
+    url: https://m.pgsoft-games.com/43/index.html?l=id&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://l154gamer.github.io/games/quit&__refer=m.pg-redirect.net&or=static.pgsoft-games.com
+    gameid: 43
+    disable: disable
+    provider: PG Soft
+    
+  - title: Groundhog Harvest
+    img: groundhog-harvest.webp
+    url: https://m.pgsoft-games.com/111/index.html?l=id&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://l154gamer.github.io/games/quit&__refer=m.pg-redirect.net&or=static.pgsoft-games.com
+    gameid: 111
+    disable: disable
+    provider: PG Soft
+
+  - title: Wizdom Wonders
+    gameid: 17
+    url: https://m.pgsoft-games.com/17/index.html?l=id&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://l154gamer.github.io/games/quit&__refer=m.pg-redirect.net&or=static.pgsoft-games.com
+    img: wizdom-wonders.webp
+    disable: disable
+    provider: PG Soft
