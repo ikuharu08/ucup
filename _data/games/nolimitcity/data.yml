@@ -351,9 +351,37 @@
   disable: disable
   provider: Nolimit City
 
-- title: Tesla Jolt
-  img: tesla-jolt_compressed.webp
+- title: Starstruck 
+  img: starstruck_compressed.webp
   url: 
+  type: videoslot
+  disable: disable
+  provider: Nolimit City
+
+- title: Pixies Vs Pirates
+  img: pixies-vs-pirates_compressed.webp
+  url:
+  type: videoslot
+  disable: disable
+  provider: Nolimit City
+  
+- title: Owls
+  img: owls_compressed.webp
+  url:
+  type: videoslot
+  disable: disable
+  provider: Nolimit City
+  
+- title: Oktoberfest
+  img: oktoberfest_compressed.webp
+  url:
+  type: videoslot
+  disable: disable
+  provider: Nolimit City
+  
+- title: Monkeys Gold
+  img: monkeys-gold_compressed.webp
+  url:
   type: videoslot
   disable: disable
   provider: Nolimit City
