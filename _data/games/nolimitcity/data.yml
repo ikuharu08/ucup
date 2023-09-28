@@ -121,3 +121,17 @@
   type: videoslot
   provider: Nolimit City
 
+- title: Blood & Shadow
+  img: blood-and-shadow_compressed.webp
+  url: 
+  type: videoslot
+  disable: disable
+  provider: Nolimit City
+
+- title: Tombstone RIP
+  img: tombstone-rip.webp
+  url: https://prod.nlcasiacdn.net/loader/game-loader.html?operator=DCCBG007&language=en&device=mobile&game=TombstoneRip&fullscreen=True
+  type: videoslot
+  provider: Nolimit City
+
+
