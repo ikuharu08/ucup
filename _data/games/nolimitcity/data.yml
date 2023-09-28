@@ -226,7 +226,7 @@
   provider: Nolimit City
 
 - title: San Quentin
-  img: san-quentin_compressed.webp
+  img: sanquentin_compressed.webp
   url: https://prod.nlcasiacdn.net/loader/game-loader.html?operator=DCCBG007&language=en&device=mobile&game=SanQuentin&fullscreen=True
   type: videoslot
   provider: Nolimit City
@@ -238,7 +238,7 @@
   provider: Nolimit City
 
 - title: Evil Goblins
-  img: evil-goblins_compressed.webp
+  img: evilgoblins_compressed.webp
   url: https://prod.nlcasiacdn.net/loader/game-loader.html?operator=DCCBG007&language=en&device=mobile&game=EvilGoblins&fullscreen=True
   type: videoslot
   provider: Nolimit City
@@ -252,12 +252,6 @@
 - title: Ice Ice Yeti
   img: ice-ice-yeti_compressed.webp
   url: https://prod.nlcasiacdn.net/loader/game-loader.html?operator=DCCBG007&language=en&device=mobile&game=IceIceYeti&fullscreen=True
-  type: videoslot
-  provider: Nolimit City
-
-- title: Book of Shadows
-  img: blood-and-shadow_compressed.webp
-  url: https://prod.nlcasiacdn.net/loader/game-loader.html?operator=DCCBG007&language=en&device=mobile&game=BookOfShadows&fullscreen=True
   type: videoslot
   provider: Nolimit City
 
