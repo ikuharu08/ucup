@@ -1,8 +1,39 @@
 - title: Serial
-  img: assets/img/providers/serial.webp
-  type: videoslot
+  img: serial_compressed.webp
   url: https://prod.nlcasiacdn.net/loader/game-loader.html?operator=DCCBG007&language=en&device=mobile&game=Serial&fullscreen=True
+  type: videoslot
   provider: Nolimit City
 
+- title: The Rave
+  img: the-rave_compressed.webp
+  url: https://prod.nlcasiacdn.net/loader/game-loader.html?operator=DCCBG007&language=en&device=mobile&game=TheRave&fullscreen=True
+  type: videoslot
+  provider: Nolimit City
+
+- title: Remember Gulag
+  img: remember-gulag_compressed.webp
+  url: https://prod.nlcasiacdn.net/loader/game-loader.html?operator=DCCBG007&language=en&device=mobile&game=RememberGulag&fullscreen=True
+  type: videoslot
+  provider: Nolimit City
+
+- title: Kiss My Chainsaw
+  img: kiss-my-chainsaw_compressed.webp
+  url: 
+  type: 
+  disable: disable 
+  provider: Nolimit City
+
+- title: Disturbed
+  img: disturbed_compressed.webp
+  url: 
+  type: 
+  disable: disable 
+  provider: Nolimit City
+
+- title: Walk of Shame
+  img: walk-of-shame_compressed.webp
+  url: https://prod.nlcasiacdn.net/loader/game-loader.html?operator=DCCBG007&language=en&device=mobile&game=WalkOfShame&fullscreen=True
+  type: videoslot
+  provider: Nolimit City
 
 
