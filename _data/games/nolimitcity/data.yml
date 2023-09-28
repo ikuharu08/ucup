@@ -267,3 +267,45 @@
   type: videoslot
   provider: Nolimit City
 
+- title: Coins of Fortune
+  img: coins-of-fortune_compressed.webp
+  url: 
+  type: videoslot
+  disable: disable
+  provider: Nolimit City
+
+- title: Fruits
+  img: fruits_compressed.webp
+  url: 
+  type: videoslot
+  disable: disable
+  provider: Nolimit City
+
+- title: Fruits
+  img: fruits_compressed.webp
+  url: 
+  type: videoslot
+  disable: disable
+  provider: Nolimit City
+
+- title: Harlequin Carnival
+  img: harlequin-carnival_compressed.webp
+  url: 
+  type: videoslot
+  disable: disable
+  provider: Nolimit City
+
+- title: Immortal Fruits
+  img: immortal-fruits_compressed.webp
+  url: 
+  type: videoslot
+  disable: disable
+  provider: Nolimit City
+
+- title: Karen Maneater
+  img: karen-maneater_compressed.webp
+  url: 
+  type: videoslot
+  disable: disable
+  provider: Nolimit City
+
