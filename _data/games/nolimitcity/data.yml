@@ -116,7 +116,7 @@
   provider: Nolimit City
 
 - title: Pearl Harbor
-  img: pearl-harbor.webp
+  img: pearl-harbor_compressed.webp
   url: https://prod.nlcasiacdn.net/loader/game-loader.html?operator=DCCBG007&language=en&device=mobile&game=PearlHarbor&fullscreen=True
   type: videoslot
   provider: Nolimit City
@@ -129,7 +129,7 @@
   provider: Nolimit City
 
 - title: Tombstone RIP
-  img: tombstone-rip.webp
+  img: tombstone-rip_compressed.webp
   url: https://prod.nlcasiacdn.net/loader/game-loader.html?operator=DCCBG007&language=en&device=mobile&game=TombstoneRip&fullscreen=True
   type: videoslot
   provider: Nolimit City
