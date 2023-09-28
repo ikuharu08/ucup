@@ -36,4 +36,31 @@
   type: videoslot
   provider: Nolimit City
 
+- title: Benji Killed In Vegas
+  img: benji-killed-in-vegas_compressed.webp
+  url: 
+  type: videoslot
+  disable: disable
+  provider: Nolimit City
+
+- title: Fire In The Hole
+  img: fireinthehole_compressed.webp
+  url: 
+  type: videoslot
+  disable: disable
+  provider: Nolimit City
+
+- title: Deadwood
+  img: deadwood_compressed.webp
+  url: https://prod.nlcasiacdn.net/loader/game-loader.html?operator=DCCBG007&language=en&device=mobile&game=Deadwood&fullscreen=True
+  type: videosot
+  provider: Nolimit City
+
+- title: Das xBoot
+  img: dasxboot_compressed.webp
+  url: 
+  type: videoslot
+  disable: disable
+  provider: Nolimit City
+
 
