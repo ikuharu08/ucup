@@ -281,8 +281,8 @@
   disable: disable
   provider: Nolimit City
 
-- title: Fruits
-  img: fruits_compressed.webp
+- title: Little Bighorn
+  img: little-bighorn_compressed.webp
   url: 
   type: videoslot
   disable: disable
@@ -304,6 +304,13 @@
 
 - title: Karen Maneater
   img: karen-maneater_compressed.webp
+  url: 
+  type: videoslot
+  disable: disable
+  provider: Nolimit City
+
+- title: Milky Ways
+  img: milky-ways_compressed.webp
   url: 
   type: videoslot
   disable: disable
