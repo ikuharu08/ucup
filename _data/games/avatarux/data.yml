@@ -1,90 +1,90 @@
 
 - title: HelioPOPolis
-  img: heliopopolis.webp
+  img: heliopopolis_avatarux.webp
   url: 
   type: videoslot
   provider: AvatarUX
 
 - title: HipHopPop
-  img: hiphoppop.webp
+  img: hiphoppop_avatarux.webp
   url: 
   type: videoslot
   provider: AvatarUX
 
 - title: Zombie aPOPalypse
-  img: zombiepop.webp
+  img: zombiepop_avatarux.webp
   url: 
   type: videoslot
   provider: AvatarUX
 
 - title: CritterPop
-  img: critterpop.webp
-  url: 
-  type: videoslot
-  provider: AvatarUX
-
-- title: Cherry Pop Deluxe
-  img: cherrypop-deluxe.webp
-  url: 
-  type: videoslot
-  provider: AvatarUX
-
-- title: Raging Pop
-  img: ragingpop.webp
-  url: 
-  type: videoslot
-  provider: AvatarUX
-  
-- title: Monkey Pop
-  img: monkeypop.webp
-  url: 
-  type: videoslot
-  provider: AvatarUX
-
-- title: Lollipop
-  img: lollipop.webp
-  url: 
-  type: videoslot
-  provider: AvatarUX
-
-- title: Piggy Pop
-  img: piggypop.webp
-  url: 
-  type: videoslot
-  provider: AvatarUX
-
-- title: Papaya Pop
-  img: papayapop.webp
-  url: 
-  type: videoslot
-  provider: AvatarUX
-
-- title: Hippo Pop
-  img: hippopop.webp
-  url: 
-  type: videoslot
-  provider: AvatarUX
-
-- title: Tiki Pop
-  img: tikipop.webp
-  url: 
-  type: videoslot
-  provider: AvatarUX
-
-- title: Bounty Pop
-  img: bountypop.webp
+  img: critterpop_avatarux.webp
   url: 
   type: videoslot
   provider: AvatarUX
 
 - title: Cherry Pop
-  img: cherrypop.webp
+  img: cherrypop_avatarux.webp
+  url: 
+  type: videoslot
+  provider: AvatarUX
+  
+- title: Cherry Pop Deluxe
+  img: cherrypop-deluxe_avatarux.webp
+  url: 
+  type: videoslot
+  provider: AvatarUX
+
+- title: Raging Pop
+  img: ragingpop_avatarux.webp
+  url: 
+  type: videoslot
+  provider: AvatarUX
+  
+- title: Monkey Pop
+  img: monkeypop_avatarux.webp
+  url: 
+  type: videoslot
+  provider: AvatarUX
+
+- title: Lollipop
+  img: lollipop_avatarux.webp
+  url: 
+  type: videoslot
+  provider: AvatarUX
+
+- title: Piggy Pop
+  img: piggypop_avatarux.webp
+  url: 
+  type: videoslot
+  provider: AvatarUX
+
+- title: Papaya Pop
+  img: papayapop_avatarux.webp
+  url: 
+  type: videoslot
+  provider: AvatarUX
+
+- title: Hippo Pop
+  img: hippopop_avatarux.webp
+  url: 
+  type: videoslot
+  provider: AvatarUX
+
+- title: Tiki Pop
+  img: tikipop_avatarux.webp
+  url: 
+  type: videoslot
+  provider: AvatarUX
+
+- title: Bounty Pop
+  img: bountypop_avatarux.webp
   url: 
   type: videoslot
   provider: AvatarUX
 
 - title: Wild Pops
-  img: wildpops.webp
+  img: wildpops_avatarux.webp
   url: 
   type: videoslot
   provider: AvatarUX
