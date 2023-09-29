@@ -4,6 +4,14 @@ site_url: /en/
 site:
   title: Batik Gaming
 
+menu:
+  - title: Lobby
+    url: /en
+    icon: home
+  - title: Disclaimer
+    url: /en/about
+    icon: info
+
 page:
   menu: Menu
   home: Lobby
