@@ -23,6 +23,6 @@ locale: en
   </div>
  </div>       
 {% else %}
-<p>{{ site.data.settings.page.nodata }}</p>
+{% if page.locale %}<p>{{ site.data.locales[page.locale].page.nodata }}{% else %}{{ site.data.settings.page.nodata }}</p>{% endif %}
  {% endfor %}        
 </div>
