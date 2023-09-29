@@ -2,14 +2,14 @@ name: Batik Gaming
 site_url: /
 
 menu:
-  - title: Lobby
+  - title: Beranda
     url: /
     icon: home
-  - title: Unduh Aplikasi
-    url: 
-    icon: download
+  - title: Penafian
+    url: /about
+    icon: info
   - title: Situs Sedot WC
-    url: /borungkad
+    url: /bo
     icon: trash
 
 page:
