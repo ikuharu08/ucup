@@ -4,6 +4,17 @@ site_url: /
 site:
   title: Batik Gaming
 
+menu:
+  - title: Beranda
+    url: /
+    icon: home
+  - title: Penafian
+    url: /about
+    icon: info
+  - title: Situs Sedot WC
+    url: /bo
+    icon: trash
+
 page:
   menu: Menu
   home: Beranda
