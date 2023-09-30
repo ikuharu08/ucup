@@ -32,10 +32,12 @@ defaults:
       type: "id"
     values:
       layout: "page"
+      locale: id
   -
     scope:
       path: ""
       type: "en"
     values:
       layout: "page"
+      locale: en
 
