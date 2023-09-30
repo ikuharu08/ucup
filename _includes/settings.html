@@ -34,10 +34,10 @@
    {% unless item.url contains '/page/' %}
     <li>
      <div class="uk-form-controls">
-     <input class="uk-radio" type="radio" name="radio1" checked>     
-      {{ site.data.locales[page.locale].settings.indonesian }}
-     <input class="uk-radio {{ item.locale }}" type="radio" name="radio1" value="{{ site.baseurl }}{{ item.url }}" onclick="openLink(this)">     
-      {{ site.data.locales[item.locale].name }}     
+     <label><input class="uk-radio" type="radio" name="radio1" checked>     
+      {{ site.data.locales[page.locale].settings.indonesian }}</label><br>
+     <label><input class="uk-radio {{ item.locale }}" type="radio" name="radio1" value="{{ site.baseurl }}{{ item.url }}" onclick="openLink(this)">     
+      {{ site.data.locales[item.locale].name }}</label>     
      </div>
     </li>
    {% endunless %}
@@ -54,10 +54,10 @@
    {% unless item.url contains '/page/' %}
     <li>
      <div class="uk-form-controls">
-     <input class="uk-radio" type="radio" name="radio1" checked>     
-      {{ site.data.locales[page.locale].settings.english }}
-     <input class="uk-radio {{ item.locale }}" type="radio" name="radio1" value="{{ site.baseurl }}{{ item.url }}" onclick="openLink(this)">     
-      {{ site.data.locales[item.locale].name }}     
+     <label><input class="uk-radio" type="radio" name="radio1" checked>     
+      {{ site.data.locales[page.locale].settings.english }}</label><br>
+     <label><input class="uk-radio {{ item.locale }}" type="radio" name="radio1" value="{{ site.baseurl }}{{ item.url }}" onclick="openLink(this)">     
+      {{ site.data.locales[item.locale].name }}</label>     
      </div>
     </li>
    {% endunless %}
