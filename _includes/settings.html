@@ -29,14 +29,14 @@
              {% if page.locale == 'id' %}
              <input class="uk-radio" type="radio" name="radio1" checked> {{ site.data.locales[page.locale].settings.indonesian }}
              {% else %}
-             <input class="uk-radio" type="radio" name="radio1"> {{ site.data.locales[page.locale].settings.indonesian }}
+             <input class="uk-radio" type="radio" name="radio1" value="/"> {{ site.data.locales[page.locale].settings.indonesian }}
              {% endif %}
             </label><br>
             <label>
              {% if page.locale == 'en' %}
              <input class="uk-radio" type="radio" name="radio1" checked> {{ site.data.locales[page.locale].settings.english }}
              {% else %}
-             <input class="uk-radio" type="radio" name="radio1"> {{ site.data.locales[page.locale].settings.english }}
+             <input class="uk-radio" type="radio" name="radio1" value="/en"> {{ site.data.locales[page.locale].settings.english }}
              {% endif %}
             </label>
         </div>    
