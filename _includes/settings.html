@@ -25,8 +25,8 @@
     <ul class="uk-nav uk-nav-default">
         <li class="uk-nav-header">{{ site.data.locales[page.locale].settings.lang-cur }}</li>
         <div class="uk-form-controls uk-form-controls-text">
-            <label><input class="uk-radio" type="radio" name="radio1" checked> {{ site.data.locales[page.locale].settings.indonesian }}</label><br>
-            <label><input class="uk-radio" type="radio" name="radio1"> {{ site.data.locales[page.locale].settings.english }}</label>
+            <label><input class="uk-radio" type="radio" name="radio1" {% if post.locale == 'id' %}checked{% else %}{% endif %}> {{ site.data.locales[page.locale].settings.indonesian }}</label><br>
+            <label><input class="uk-radio" type="radio" name="radio1" {% if post.locale == 'en' %}checked{% else %}{% endif %}> {{ site.data.locales[page.locale].settings.english }}</label>
         </div>    
     </ul>
 </div>       
