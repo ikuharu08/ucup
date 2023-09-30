@@ -43,10 +43,11 @@
     </ul>
  
  {% if page.uid %}
+ {% if page.locale == 'id' %}
   <ul class="uk-nav uk-nav-default">
   {% assign postsOrPages = site.pages 
     | concat: site.pages 
-    | concat: site.id 
+    | concat: site.en
     | where: "uid", page.uid 
     | sort: "locale" %}
   {% for item in postsOrPages %}
@@ -56,15 +57,26 @@
       {{ site.data.locales[item.locale].name }}
      </a>
     </li>
-   {% else %}
-   <li>
-     <a href="{{ site.baseurl }}{{ item.url }}" class="{{ item.locale }}">
-      {{ site.data.locales[item.locale].name }}
-     </a>
-   </li>
    {% endunless %}
   {% endfor %}
  </ul>
+ {% elsif page.locale == 'en' %}
+  <ul class="uk-nav uk-nav-default">
+  {% assign postsOrPages = site.pages 
+    | concat: site.pages 
+    | concat: site.id
+    | where: "uid", page.uid 
+    | sort: "locale" %}
+  {% for item in postsOrPages %}
+   {% unless item.url contains '/page/' %}
+    <li>
+     <a href="{{ site.baseurl }}{{ item.url }}" class="{{ item.locale }}">
+      {{ site.data.locales[item.locale].name }}
+     </a>
+    </li>
+   {% endunless %}
+  {% endfor %}
+  </ul>
  {% endif%}
  
 </div>       
