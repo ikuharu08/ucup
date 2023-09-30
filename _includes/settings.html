@@ -22,28 +22,9 @@
 
 <!-- Mata Uang & Bahasa --> 
 <div class="uk-width-1-2@s uk-width-2-5@m">
-    <ul class="uk-nav uk-nav-default">
-        <li class="uk-nav-header">{{ site.data.locales[page.locale].settings.lang-cur }}</li>
-        <div class="uk-form-controls uk-form-controls-text">
-            <label>
-             {% if page.locale == 'id' %}
-             <input class="uk-radio" type="radio" name="radio1" checked> {{ site.data.locales[page.locale].settings.indonesian }}
-             {% else %}
-             <input class="uk-radio" type="radio" name="radio1" value="https://batikgaming.github.io/" onclick="openLink(this)"> {{ site.data.locales[page.locale].settings.indonesian }}
-             {% endif %}
-            </label><br>
-            <label>
-             {% if page.locale == 'en' %}
-             <input class="uk-radio" type="radio" name="radio1" checked> {{ site.data.locales[page.locale].settings.english }}
-             {% else %}
-             <input class="uk-radio" type="radio" name="radio1" value="https://batikgaming.github.io/en" onclick="openLink(this)"> {{ site.data.locales[page.locale].settings.english }}
-             {% endif %}
-            </label>
-        </div>    
-    </ul>
- 
+<ul class="uk-nav uk-nav-default">
+ <li class="uk-nav-header">{{ site.data.locales[page.locale].settings.lang-cur }}</li> 
  {% if page.locale == 'id' %}
-  <ul class="uk-nav uk-nav-default">
   {% assign postsOrPages = site.pages 
     | concat: site.pages 
     | concat: site.en
@@ -52,6 +33,8 @@
   {% for item in postsOrPages %}
    {% unless item.url contains '/page/' %}
     <li>
+     <input class="uk-radio" type="radio" name="radio1" checked>     
+      {{ site.data.locales[page.locale].settings.indonesian }}
      <input class="uk-radio {{ item.locale }}" type="radio" name="radio1" value="{{ site.baseurl }}{{ item.url }}" onclick="openLink(this)">     
       {{ site.data.locales[item.locale].name }}     
     </li>
@@ -68,14 +51,15 @@
   {% for item in postsOrPages %}
    {% unless item.url contains '/page/' %}
     <li>
+     <input class="uk-radio" type="radio" name="radio1" checked>     
+      {{ site.data.locales[page.locale].settings.english }}
      <input class="uk-radio {{ item.locale }}" type="radio" name="radio1" value="{{ site.baseurl }}{{ item.url }}" onclick="openLink(this)">     
       {{ site.data.locales[item.locale].name }}     
     </li>
    {% endunless %}
   {% endfor %}
-  </ul>
  {% endif%}
- 
+</ul>
 </div>       
 <!-- /Mata Uang & Bahasa --> 
 
