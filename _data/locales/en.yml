@@ -43,7 +43,7 @@ settings:
   providers: Providers
   display: Display
   english: English (USD)
-  indonesian: Indonesian (IDR / Rupiah)
+  indonesian: Indonesian (IDR)
 
 
 providers:
