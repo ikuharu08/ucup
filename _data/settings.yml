@@ -180,6 +180,8 @@ providers:
     url: gameart
   - title: Evoplay 
     url: evoplay
+  - title: AvatarUX 
+    url: avatarux
 
 
 donasi:
@@ -191,7 +193,6 @@ donasi:
      desc: 
    - img: Bank Raya / BRI Agroniaga
      desc: 
-
 
 
 footer:
