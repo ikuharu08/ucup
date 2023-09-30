@@ -1,0 +1,58 @@
+<!-- Settings -->
+<div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+ <div class="uk-offcanvas-bar">
+  <button class="uk-offcanvas-close" type="button" uk-close></button>
+  <h3>Pengaturan</h3>
+
+<hr>
+
+<!-- Game Filter --> 
+<div class="uk-width-1-2@s uk-width-2-5@m">
+    <ul class="uk-nav uk-nav-default">        
+        <li class="uk-nav-header">Filter</li>
+        <li uk-filter-control><a href="#">Semua Game</a></li>
+        <li uk-filter-control="[data-pilih='new']"><a href="#new">Game Baru</a></li>
+        <li uk-filter-control="[data-pilih='tablegames']"><a href="#tablegames">Table Games</a></li>
+    </ul>
+</div>
+<!-- /Game Filter --> 
+
+<hr>
+
+<!-- Mata Uang & Bahasa --> 
+<div class="uk-width-1-2@s uk-width-2-5@m">
+    <ul class="uk-nav uk-nav-default">
+        <li class="uk-nav-header">Mata Uang & Bahasa</li>
+        <div class="uk-form-controls uk-form-controls-text">
+            <label><input class="uk-radio" type="radio" name="radio1" checked> IDR / Rupiah (Bahasa Indonesia)</label><br>
+            <label><input class="uk-radio" type="radio" name="radio1"> USD (English)</label>
+        </div>    
+    </ul>
+</div>       
+<!-- /Mata Uang & Bahasa --> 
+
+<hr>
+
+<!-- Line/Game Themes --> 
+<div class="uk-width-1-2@s uk-width-2-5@m">
+    <ul class="uk-nav uk-nav-default">
+        <li class="uk-nav-header">Provider</li>
+        <li uk-filter-control="[data-pilih='megaways']"><a href="#megaways">Megaways</a></li>
+    </ul>
+</div>
+<!-- /Line/Game Themes -->
+
+<hr>
+
+<!-- Theme Setting -->
+<div class="uk-width-1-2@s uk-width-2-5@m">
+         <ul class="uk-nav uk-iconnav uk-iconnav-vertical">
+          <li class="uk-nav-header">Tampilan</li>
+          <li id="grid"><a id="grid"><span uk-icon="icon: thumbnails"></span>GRID</a></li>
+          <li id="list"><a id="list"><span uk-icon="icon: list"></span>LIST</a></li>
+         </ul>
+</div>
+<!-- /Theme Setting -->
+
+ </div>
+</div><!-- /Settings -->
