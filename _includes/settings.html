@@ -56,6 +56,12 @@
       {{ site.data.locales[item.locale].name }}
      </a>
     </li>
+   {% else %}
+   <li>
+     <a href="{{ site.baseurl }}{{ item.url }}" class="{{ item.locale }}">
+      {{ site.data.locales[item.locale].name }}
+     </a>
+   </li>
    {% endunless %}
   {% endfor %}
  </ul>
