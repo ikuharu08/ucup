@@ -46,7 +46,7 @@
   <ul class="uk-nav uk-nav-default">
   {% assign postsOrPages = site.posts 
     | concat: site.pages 
-    | concat: site.ar 
+    | concat: site.en 
     | where: "uid", page.uid 
     | sort: "locale" %}
   {% for item in postsOrPages %}
