@@ -2,18 +2,18 @@
 <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
  <div class="uk-offcanvas-bar">
   <button class="uk-offcanvas-close" type="button" uk-close></button>
-  <h3>Pengaturan</h3>
+  <h3>{{ site.data.locales[page.locale].settings.settings }}</h3>
 
 <hr>
 
 <!-- Game Filter --> 
 <div class="uk-width-1-2@s uk-width-2-5@m">
     <ul class="uk-nav uk-nav-default">        
-     <li class="uk-nav-header">Filter</li>
+     <li class="uk-nav-header">{{ site.data.locales[page.locale].settings.filter }}</li>
      <li uk-filter-control><a href="#">Semua Game</a></li>
-     <li uk-filter-control="[data-pilih='new']"><a href="#new">Game Baru</a></li>
-     <li uk-filter-control="[data-pilih='table']"><a href="#table">Table Games</a></li>
-     <li uk-filter-control="[data-pilih='classic']"><a href="#classic">Klasik Game</a></li>
+     <li uk-filter-control="[data-pilih='new']"><a href="#new">{{ site.data.locales[page.locale].settings.new_games }}</a></li>
+     <li uk-filter-control="[data-pilih='table']"><a href="#table">{{ site.data.locales[page.locale].settings.table_games }}</a></li>
+     <li uk-filter-control="[data-pilih='classic']"><a href="#classic">{{ site.data.locales[page.locale].settings.classic_games }}</a></li>
     </ul>
 </div>
 <!-- /Game Filter --> 
@@ -23,7 +23,7 @@
 <!-- Mata Uang & Bahasa --> 
 <div class="uk-width-1-2@s uk-width-2-5@m">
     <ul class="uk-nav uk-nav-default">
-        <li class="uk-nav-header">Mata Uang & Bahasa</li>
+        <li class="uk-nav-header">{{ site.data.locales[page.locale].settings.lang-cur }}</li>
         <div class="uk-form-controls uk-form-controls-text">
             <label><input class="uk-radio" type="radio" name="radio1" checked> IDR / Rupiah (Bahasa Indonesia)</label><br>
             <label><input class="uk-radio" type="radio" name="radio1"> USD (English)</label>
@@ -37,7 +37,7 @@
 <!-- Line/Game Themes --> 
 <div class="uk-width-1-2@s uk-width-2-5@m">
     <ul class="uk-nav uk-nav-default">
-        <li class="uk-nav-header">Providers</li>
+        <li class="uk-nav-header">{{ site.data.locales[page.locale].settings.providers }}</li>
         <li><a uk-filter-control="[data-pilih='megaways']" href="#megaways">Megaways</a></li>
         <li><a uk-filter-control="[data-pilih='slotmania']" href="#slotmania">Slot Mania</a></li>
         <li><a uk-filter-control="[data-pilih='nexus']" href="#nexus">Nexus</a></li>
@@ -81,7 +81,7 @@
 <!-- Theme Setting -->
 <div class="uk-width-1-2@s uk-width-2-5@m">
          <ul class="uk-nav uk-iconnav uk-iconnav-vertical">
-          <li class="uk-nav-header">Tampilan</li>
+          <li class="uk-nav-header">{{ site.data.locales[page.locale].settings.display }}</li>
           <li id="grid"><a id="grid"><span uk-icon="icon: thumbnails"></span>GRID</a></li>
           <li id="list"><a id="list"><span uk-icon="icon: list"></span>LIST</a></li>
          </ul>
