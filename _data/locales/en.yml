@@ -32,6 +32,17 @@ page:
   language: Language
 
 
+settings:
+  settings: Settings
+  filter: Filter
+  all_games: All Games
+  new_games: New Games
+  classic_games: Classic Games
+  table_games: Table Games
+  lang-cur: Currency & Language
+  providers: Providers
+  display: Display
+
 
 providers:
   - title: Pragmatic Play  
