@@ -81,6 +81,26 @@
         {% if page.active == "evoplay" %}
          <li><a uk-filter-control="[data-pilih='table']" href="#table">{% if page.locale %}{{ site.data.locales[page.locale].page.table }}{% else %}{{ site.data.settings.page.table }}{% endif %}</a></li>
         {% endif %}
+    {% if page.uid %}
+  {% assign postsOrPages = site.posts 
+    | concat: site.pages 
+    | concat: site.en
+    | where: "uid", page.uid 
+    | sort: "locale" %}
+  {% for item in postsOrPages %}
+  <!-- filter /page/ -->
+  {% unless item.url contains '/page/' %}
+  {{ site.data.locales[item.locale].name }}
+{% else %}
+  <li>
+  <a href="{{ site.baseurl }}{{ item.url }}" class="{{ item.locale }} disabled">
+    {{ site.data.locales[item.locale].name }}
+  </a>
+    </li>
+  {% endunless %}
+  {% endfor %}
+    
+    {% endif %}
     </ul>
 </nav>
 </div>
