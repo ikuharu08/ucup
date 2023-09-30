@@ -52,9 +52,8 @@
   {% for item in postsOrPages %}
    {% unless item.url contains '/page/' %}
     <li>
-     <a href="{{ site.baseurl }}{{ item.url }}" class="{{ item.locale }}">
-      {{ site.data.locales[item.locale].name }}
-     </a>
+     <input class="uk-radio {{ item.locale }}" type="radio" name="radio1" value="{{ site.baseurl }}{{ item.url }}" onclick="openLink(this)">     
+      {{ site.data.locales[item.locale].name }}     
     </li>
    {% endunless %}
   {% endfor %}
@@ -69,9 +68,8 @@
   {% for item in postsOrPages %}
    {% unless item.url contains '/page/' %}
     <li>
-     <a href="{{ site.baseurl }}{{ item.url }}" class="{{ item.locale }}">
-      {{ site.data.locales[item.locale].name }}
-     </a>
+     <input class="uk-radio {{ item.locale }}" type="radio" name="radio1" value="{{ site.baseurl }}{{ item.url }}" onclick="openLink(this)">     
+      {{ site.data.locales[item.locale].name }}     
     </li>
    {% endunless %}
   {% endfor %}
