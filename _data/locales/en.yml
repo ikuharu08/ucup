@@ -42,6 +42,8 @@ settings:
   lang-cur: Currency & Language
   providers: Providers
   display: Display
+  english: English (USD)
+  indonesian: Indonesian (IDR/Rupiah)
 
 
 providers:
