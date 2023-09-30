@@ -9,10 +9,11 @@
 <!-- Game Filter --> 
 <div class="uk-width-1-2@s uk-width-2-5@m">
     <ul class="uk-nav uk-nav-default">        
-        <li class="uk-nav-header">Filter</li>
-        <li uk-filter-control><a href="#">Semua Game</a></li>
-        <li uk-filter-control="[data-pilih='new']"><a href="#new">Game Baru</a></li>
-        <li uk-filter-control="[data-pilih='tablegames']"><a href="#tablegames">Table Games</a></li>
+     <li class="uk-nav-header">Filter</li>
+     <li uk-filter-control><a href="#">Semua Game</a></li>
+     <li uk-filter-control="[data-pilih='new']"><a href="#new">Game Baru</a></li>
+     <li uk-filter-control="[data-pilih='table']"><a href="#table">Table Games</a></li>
+     <li uk-filter-control="[data-pilih='classic']"><a href="#classic">Klasik Game</a></li>
     </ul>
 </div>
 <!-- /Game Filter --> 
@@ -36,13 +37,11 @@
 <!-- Line/Game Themes --> 
 <div class="uk-width-1-2@s uk-width-2-5@m">
     <ul class="uk-nav uk-nav-default">
-        <li class="uk-nav-header">Provider</li>
+        <li class="uk-nav-header">Providers</li>
         <li><a uk-filter-control="[data-pilih='megaways']" href="#megaways">Megaways</a></li>
         <li><a uk-filter-control="[data-pilih='slotmania']" href="#slotmania">Slot Mania</a></li>
         <li><a uk-filter-control="[data-pilih='nexus']" href="#nexus">Nexus</a></li>
-        <li><a uk-filter-control="[data-pilih='infini']" href="#infini">Infini</a></li>
-        <li><a uk-filter-control="[data-pilih='classic']" href="#classic">{% if page.locale %}{{ site.data.locales[page.locale].page.classic }}{% else %}{{ site.data.settings.page.classic }}{% endif %}</a></li>
-        <li><a uk-filter-control="[data-pilih='table']" href="#table">{% if page.locale %}{{ site.data.locales[page.locale].page.table }}{% else %}{{ site.data.settings.page.table }}{% endif %}</a></li>
+        <li><a uk-filter-control="[data-pilih='infini']" href="#infini">Infini</a></li>                
         <li><a uk-filter-control="[data-pilih='reelkingdom']" href="#reelkingdom">Reel Kingdom</a></li>
         <li><a uk-filter-control="[data-pilih='wsg']" href="#wsg">Wild Streak Gaming</a></li>
     </ul>
