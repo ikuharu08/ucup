@@ -92,7 +92,8 @@
   <!-- filter /page/ -->
   {% unless item.url contains '/page/' %}
    <li>
-    <a href="#">{% if page.locale %}{{ site.data.locales[page.locale].page.providers }}{% else %}{{ site.data.settings.page.providers }}{% endif %} <span uk-drop-parent-icon></span></a>
+    <a href="#"> Currency
+     <span uk-drop-parent-icon></span></a>
             <div class="uk-dropdown">
               <ul class="uk-nav uk-dropdown-nav">
                  <li><a href="{{ site.baseurl }}{{ item.url }}">{{ site.data.locales[item.locale].name }}</a></li>
