@@ -26,14 +26,14 @@
         <li class="uk-nav-header">{{ site.data.locales[page.locale].settings.lang-cur }}</li>
         <div class="uk-form-controls uk-form-controls-text">
             <label>
-             {% if post.locale == 'id' %}
+             {% if page.locale == 'id' %}
              <input class="uk-radio" type="radio" name="radio1" checked> {{ site.data.locales[page.locale].settings.indonesian }}
              {% else %}
              <input class="uk-radio" type="radio" name="radio1"> {{ site.data.locales[page.locale].settings.indonesian }}
              {% endif %}
             </label><br>
             <label>
-             {% if post.locale == 'en' %}
+             {% if page.locale == 'en' %}
              <input class="uk-radio" type="radio" name="radio1" checked> {{ site.data.locales[page.locale].settings.english }}
              {% else %}
              <input class="uk-radio" type="radio" name="radio1"> {{ site.data.locales[page.locale].settings.english }}
