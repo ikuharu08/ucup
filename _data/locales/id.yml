@@ -39,9 +39,9 @@ settings:
   settings: Pengaturan
   filter: Filter
   all_games: Semua Game
-  new_games: Game Baru
+  new_games: Game Terbaru
   classic_games: Game Klasik
-  table_games: Game Table
+  table_games: Game Tabel
   lang-cur: Mata Uang & Bahasa
   providers: Providers
   display: Tampilan
