@@ -22,7 +22,7 @@
               </div>
              </div>    
             </li>       
-            {% for item in site.data.settings.providers %}
+            {% for item in site.data.locales[page.locale].providers %}
             <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
             {% endfor %}            
         </ul>
