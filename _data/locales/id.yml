@@ -35,6 +35,18 @@ page:
   language: Bahasa
 
 
+settings:
+  settings: Pengaturan
+  filter: Filter
+  all_games: Semua Game
+  new_games: Game Baru
+  classic_games: Game Klasik
+  table_games: Game Table
+  lang-cur: Mata Uang & Bahasa
+  providers: Providers
+  display: Tampilan
+
+
 providers:
   - title: Pragmatic Play  
     url: pragmaticplay
